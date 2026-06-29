@@ -1,7 +1,7 @@
 import { MapPinned, Navigation } from "lucide-react";
 
 const mapsUrl =
-  "https://www.google.com/maps/search/?api=1&query=Av.%20Chimpuocllo%201157%20Carabayllo%20Mercado%20Qatuna";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.2113856553638!2d-77.04137063595658!3d-11.890363932787439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d1ba062edca1%3A0x8ffda4007831d863!2sEl%20Bunker%20de%20la%20t%C3%ADa%20Karlita%20Carabayllo!5e0!3m2!1ses-419!2spe!4v1782713948606!5m2!1ses-419!2spe";
 
 export function Location() {
   return (
@@ -32,7 +32,7 @@ export function Location() {
         <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-[0_6px_12px_oklch(0.24_0.06_35/0.08)]">
           <iframe
             title="Mapa referencial de El Bunker de la Tia Karlita"
-            src="https://www.google.com/maps?q=Av.%20Chimpuocllo%201157%20Carabayllo%20Mercado%20Qatuna&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.2113856553638!2d-77.04137063595658!3d-11.890363932787439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d1ba062edca1%3A0x8ffda4007831d863!2sEl%20Bunker%20de%20la%20t%C3%ADa%20Karlita%20Carabayllo!5e0!3m2!1ses-419!2spe!4v1782713948606!5m2!1ses-419!2spe"
             className="h-[360px] w-full border-0 md:h-[440px]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
