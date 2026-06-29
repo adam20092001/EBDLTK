@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Atkinson_Hyperlegible, Bricolage_Grotesque } from "next/font/google";
+import { siteAssets } from "@/data/site";
 import "./globals.css";
 
 const display = Bricolage_Grotesque({
@@ -27,10 +28,10 @@ export const metadata: Metadata = {
     locale: "es_PE",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1600&q=80",
-        width: 1600,
-        height: 1067,
-        alt: "Mesa con platos abundantes de comida casera"
+        url: siteAssets.openGraph.src,
+        width: siteAssets.openGraph.width,
+        height: siteAssets.openGraph.height,
+        alt: siteAssets.openGraph.alt
       }
     ]
   }

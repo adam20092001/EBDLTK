@@ -91,8 +91,7 @@ export function ReservationForm() {
             Reserva mesa o pide por WhatsApp
           </h2>
           <p className="pretty mt-5 text-lg leading-8 text-muted">
-            Llena tus datos y se abrira WhatsApp con el mensaje listo. La solicitud tambien
-            se guarda en el sistema de reservas cuando Supabase esta configurado.
+            Llena tus datos y se abrira WhatsApp con el mensaje listo.
           </p>
         </div>
 

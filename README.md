@@ -38,3 +38,17 @@ RESERVATIONS_ADMIN_KEY=una_clave_privada_para_el_panel
 
 4. Vuelve a desplegar.
 5. Entra a `/reservas`, escribe la clave de `RESERVATIONS_ADMIN_KEY` y carga las reservas.
+
+## Cambiar fotos y logo
+
+Las imagenes principales se cambian desde `data/site.ts`.
+
+Puedes usar URLs externas o subir archivos a `public/images` y referenciarlos asi:
+
+```ts
+src: "/images/logo.png"
+src: "/images/hero.jpg"
+src: "/images/seco-cabrito.jpg"
+```
+
+El logo esta configurado en `siteAssets.logo`. Si `logo.src` esta vacio, la web muestra el circulo con las iniciales `TK`. Para usar un logo real, sube el archivo a `public/images/logo.png` y cambia `logo.src` a `"/images/logo.png"`.

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowDown, MapPin } from "lucide-react";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { siteAssets } from "@/data/site";
 
 export function Hero() {
   return (
@@ -42,8 +43,8 @@ export function Hero() {
           <div className="absolute -right-6 -top-6 h-28 w-28 rounded-full bg-maize" aria-hidden="true" />
           <div className="relative overflow-hidden rounded-2xl bg-primary shadow-warm">
             <Image
-              src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1600&q=80"
-              alt="Mesa servida con platos abundantes de comida casera"
+              src={siteAssets.hero.src}
+              alt={siteAssets.hero.alt}
               width={900}
               height={1100}
               priority

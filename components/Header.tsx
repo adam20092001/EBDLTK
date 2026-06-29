@@ -1,7 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { Menu, MessageCircle, X } from "lucide-react";
 import { useState } from "react";
+import { siteAssets } from "@/data/site";
 import { createWhatsAppUrl } from "@/lib/whatsapp";
 
 const navItems = [
@@ -22,9 +24,20 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-40 border-b border-line/70 bg-bg/92 backdrop-blur-md">
       <div className="section-shell flex min-h-[72px] items-center justify-between gap-4">
         <a href="#inicio" className="group flex items-center gap-3" aria-label="Ir al inicio">
-          <span className="grid h-11 w-11 place-items-center rounded-full bg-primary text-lg font-black text-white">
-            TK
-          </span>
+          {siteAssets.logo.src ? (
+            <Image
+              src={siteAssets.logo.src}
+              alt={siteAssets.logo.alt}
+              width={44}
+              height={44}
+              className="h-11 w-11 rounded-full object-cover"
+              priority
+            />
+          ) : (
+            <span className="grid h-11 w-11 place-items-center rounded-full bg-primary text-lg font-black text-white">
+              {siteAssets.logo.initials}
+            </span>
+          )}
           <span className="leading-tight">
             <span className="block font-display text-lg font-bold text-ink">
               El Bunker
