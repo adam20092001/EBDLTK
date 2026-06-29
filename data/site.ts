@@ -1,6 +1,6 @@
 export const siteAssets = {
   logo: {
-    src: "",
+    src: "/images/logo.jpg",
     alt: "Logo de El Bunker de la Tia Karlita",
     initials: "TK"
   },
@@ -16,27 +16,27 @@ export const siteAssets = {
   },
   dishes: {
     secoCabrito: {
-      src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
+      src: "/images/secocabrito.jpg",
       alt: "Plato contundente de carne guisada con guarniciones"
     },
     arrozConPato: {
-      src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+      src: "/images/arrozconpato.jpg",
       alt: "Mesa con plato de arroz y carne servida"
     },
     ceviche: {
-      src: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
+      src: "/images/ceviche.jpg",
       alt: "Plato fresco con vegetales y pescado estilo ceviche"
     },
     secoChavelo: {
-      src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      src: "/images/secochavelo.jpg",
       alt: "Plato dorado y abundante servido sobre mesa"
     },
     tamalitosVerdes: {
-      src: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80",
+      src: "/images/tamalitosverdes.jpg",
       alt: "Comida servida con vegetales frescos y acompanamientos"
     },
     duoMarino: {
-      src: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80",
+      src: "/images/duomarino.jpg",
       alt: "Plato de restaurante con preparacion marina y guarniciones"
     }
   }
